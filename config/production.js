@@ -1,5 +1,5 @@
 module.exports = {
-  wwwBaseUrl: "http://3dl.dfocus.top",
+  wwwBaseUrl: "http://3dl.dfocus.top/mockApi",
   enviroment: "prod",
   db: {
     user: "root",

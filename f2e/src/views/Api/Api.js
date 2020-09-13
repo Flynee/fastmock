@@ -538,7 +538,7 @@ class Api extends React.Component {
                 </div>
                 <AceEditor
                   style={{
-                    minWidth: "800px",              
+                    minWidth: "800px",
                     height: "100%",
                   }}
                   mode={this.state.aceEditorOption.lua}
