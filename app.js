@@ -74,7 +74,7 @@ var sessionOptions = {
       maxAge : 1000 * 60 * 60 * 2, // 设置 session 的有效时间，单位毫秒
   },
 };
-if (config.get('enviroment') === 'prod') {
+if (config.get('enviroment') === 'production') {
   sessionOptions.store = new RedisStore(radisOptions)
 }
 app.use(session(sessionOptions));

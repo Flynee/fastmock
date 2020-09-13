@@ -2,7 +2,7 @@ module.exports = {
   'wwwBaseUrl': 'http://localhost:3000',
   'enviroment': 'dev',
   'db': {
-    'password'        : 'root'
+    'password'        : '1qaz2WSX?'
   },
   'radis': {
     'host': 'localhost',
